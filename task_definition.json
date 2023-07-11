@@ -1,0 +1,19 @@
+
+[
+    {
+      "name": "worker",
+      "image": "980053569612.dkr.ecr.ap-south-1.amazonaws.com/test", 
+      "cpu": 256,
+      "networkMode": "default",
+      "memory": 128,
+      "portMappings": [
+        {
+          "containerPort": 8080,
+          "hostPort": 8080,
+          "protocol": "tcp"
+        }
+        ]
+
+    }
+]
+
